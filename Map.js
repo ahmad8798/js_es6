@@ -8,3 +8,4 @@ const users = [
 
 let namesUpper=users.map((user)=>user.name.toUpperCase())
 
+let youngsters=users.filter((user)=>user.age>=25)
