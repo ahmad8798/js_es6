@@ -5,3 +5,6 @@ const users = [
 ];
 
 //Create a new array that contains only the names of the users in uppercase letters.
+
+let namesUpper=users.map((user)=>user.name.toUpperCase())
+console.log(namesUpper);
